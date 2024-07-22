@@ -1,0 +1,110 @@
+.home-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.escape-section,
+.company-section,
+.contact-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.escape-section h2,
+.company-section h2,
+.contact-section h2,
+.products-section h2 {
+    color: #ff0000;
+}
+
+.escape-section ul,
+.company-section ul,
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.escape-section li,
+.company-section li,
+.contact-section li {
+    margin: 5px 0;
+}
+
+.products-section {
+    margin-top: 20px;
+}
+
+.product-card {
+    margin: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card .btn-danger {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    transition: background-color 0.3s ease;
+}
+
+.product-card .btn-danger:hover {
+    background-color: #cc0000;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev {
+    left: -5%;
+}
+
+.carousel-control-next {
+    right: -5%;
+}

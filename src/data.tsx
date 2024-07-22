@@ -1,0 +1,68 @@
+import { Game } from "./types";
+
+  export const escapeGames: Game[] = [
+    {
+      id: 1,
+      title: 'Le Manoir Hanté',
+      price: '$25.00',
+      image: '/assets/images/esc1.jpg',
+      description: 'Vivez une aventure effrayante dans le manoir hanté.',
+      details: 'Entrez dans un manoir mystérieux rempli de secrets et de surprises. Vous avez 60 minutes pour résoudre les énigmes et vous échapper avant que les fantômes ne vous attrapent. Idéal pour les amateurs de frissons et d\'aventure.',
+    },
+    {
+      id: 2,
+      title: 'Le Laboratoire Secret',
+      price: '$20.00',
+      image: '/assets/images/esc2.png',
+      description: 'Enquêtez dans un laboratoire mystérieux.',
+      details: 'Découvrez les expériences secrètes menées dans ce laboratoire sombre et inquiétant. Travaillez en équipe pour déchiffrer les indices et éviter les pièges mortels. Une expérience immersive et palpitante vous attend.',
+    },
+    {
+      id: 3,
+      title: 'La Forêt Enchantée',
+      price: '$22.00',
+      image: '/assets/images/esc3.png',
+      description: 'Perdez-vous dans une forêt magique pleine de mystères.',
+      details: 'Explorez une forêt enchantée où chaque arbre cache un secret. Résolvez les énigmes magiques et trouvez votre chemin avant que la nuit ne tombe. Une aventure féerique et captivante pour tous les âges.',
+    },
+    {
+      id: 4,
+      title: 'L\'Asile Abandonné',
+      price: '$18.50',
+      image: '/assets/images/esc4.jpg',
+      description: 'Découvrez les horreurs cachées dans un asile abandonné.',
+      details: 'Oserez-vous entrer dans cet asile abandonné et affronter vos peurs les plus profondes ? Cherchez des indices dans les pièces sombres et lugubres pour découvrir la vérité sur les patients disparus. Une expérience effrayante à ne pas manquer.',
+    },
+    {
+      id: 5,
+      title: 'Le Trésor du Pirate',
+      price: '$21.00',
+      image: '/assets/images/esc5.png',
+      description: 'Partez à la recherche d\'un trésor caché.',
+      details: 'Naviguez sur les mers dangereuses et trouvez le trésor caché du légendaire pirate Barbe Noire. Résolvez des énigmes nautiques et déjouez les pièges pour obtenir votre récompense. Une aventure palpitante pour les chasseurs de trésors.',
+    },
+    {
+      id: 6,
+      title: 'La Cabane dans les Bois',
+      price: '$19.90',
+      image: '/assets/images/esc6.png',
+      description: 'Survivez une nuit terrifiante dans une cabane isolée.',
+      details: 'Vous et votre équipe êtes piégés dans une cabane au milieu de la forêt. Des phénomènes étranges se produisent et vous devez résoudre les énigmes pour survivre jusqu\'à l\'aube. Une expérience d\'horreur intense pour les plus courageux.',
+    },
+    {
+      id: 7,
+      title: 'Le Mystère de la Pyramide',
+      price: '$23.50',
+      image: '/assets/images/esc7.webp',
+      description: 'Explorez les secrets cachés de l\'ancienne Égypte.',
+      details: 'Plongez dans l\'antiquité et explorez une pyramide remplie de mystères. Déchiffrez les hiéroglyphes et évitez les pièges pour découvrir les secrets des pharaons. Une aventure historique et énigmatique pour les amateurs de mystères anciens.',
+    },
+    {
+      id: 8,
+      title: 'L\'Invasion Extraterrestre',
+      price: '$24.99',
+      image: '/assets/images/esc8.png',
+      description: 'Repoussez une invasion extraterrestre.',
+      details: 'La Terre est menacée par une invasion extraterrestre. Vous et votre équipe devez trouver un moyen de repousser les envahisseurs en résolvant des énigmes technologiques et en découvrant leurs plans. Une aventure de science-fiction excitante.',
+    },
+  ];  

@@ -1,0 +1,30 @@
+.escape-games-list {
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+
+  
+  .game-card {
+    margin: 10px;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .game-card .btn-danger {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .game-card .btn-danger:hover {
+    background-color: #cc0000;
+  }
+  
+  .escape-games-list h2 {
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
